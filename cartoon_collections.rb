@@ -14,6 +14,5 @@ end
 
 def find_the_cheese(cheese)
 cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.include? (cheese_types);
-  return cheese_types
+  cheese_types.index { |n| n = cheese_types }
 end
