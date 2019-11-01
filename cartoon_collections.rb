@@ -16,3 +16,5 @@ def find_the_cheese(cheese)
 cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.detect { |n| n % cheese == cheese_types }
 end
+  return cheese
+end
