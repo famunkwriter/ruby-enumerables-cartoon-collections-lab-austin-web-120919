@@ -13,6 +13,6 @@ def long_planeteer_calls(calls_long)
 end
 
 def find_the_cheese(cheese)
-  cheese.any? { |n| n.include? === cheese_types}
+  cheese.any? { |n| n.include? = cheese_types}
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
